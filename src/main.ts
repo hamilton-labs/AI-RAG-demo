@@ -36,7 +36,7 @@ function handleSubmit(form: HTMLFormElement) {
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div class="w-screen h-screen flex items-center justify-center bg-gray-50 p-4">
     <div class="w-full max-w-md bg-white rounded-lg shadow-md p-6">
-      <h1 class="text-2xl font-bold mb-4 text-center">San Francisco Travel Guide</h1>
+      <h1 class="text-2xl font-bold mb-4 text-center">New York City Travel Guide</h1>
       <form id="queryForm" class="flex flex-col gap-4">
         <!-- New API-Key field -->
         <input
